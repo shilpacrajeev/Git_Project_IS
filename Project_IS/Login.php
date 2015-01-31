@@ -111,7 +111,6 @@
 												if($id==$split[$i])
 												{
 													session_start();
-													session_regenerate_id(true);
 													$_SESSION["userid"]=$id;
 													$_SESSION["username"]=$_POST["username"];
 													$_SESSION["id"]=session_id();
